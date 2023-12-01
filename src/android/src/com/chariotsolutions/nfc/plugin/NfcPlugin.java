@@ -33,6 +33,7 @@ import android.nfc.tech.NdefFormatable;
 import android.nfc.tech.TagTechnology;
 import android.os.Bundle;
 import android.os.Parcelable;
+import android.os.Build;
 import android.util.Log;
 
 public class NfcPlugin extends CordovaPlugin implements NfcAdapter.OnNdefPushCompleteCallback {
